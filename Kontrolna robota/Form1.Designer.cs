@@ -35,10 +35,10 @@
             label2 = new Label();
             label3 = new Label();
             dataGridView1 = new DataGridView();
+            button1 = new Button();
             Назва = new DataGridViewTextBoxColumn();
             Ціна = new DataGridViewTextBoxColumn();
             Швидкість = new DataGridViewTextBoxColumn();
-            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
@@ -97,40 +97,20 @@
             label3.Name = "label3";
             label3.Size = new Size(90, 36);
             label3.TabIndex = 1;
-            label3.Text = "Гними";
+            label3.Text = "Гноми";
             // 
             // dataGridView1
             // 
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Назва, Ціна, Швидкість });
             dataGridView1.Location = new Point(280, 82);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.RowTemplate.Height = 33;
             dataGridView1.Size = new Size(1186, 632);
             dataGridView1.TabIndex = 2;
-            // 
-            // Назва
-            // 
-            Назва.HeaderText = "Назва";
-            Назва.MinimumWidth = 8;
-            Назва.Name = "Назва";
-            Назва.Width = 97;
-            // 
-            // Ціна
-            // 
-            Ціна.HeaderText = "Ціна";
-            Ціна.MinimumWidth = 8;
-            Ціна.Name = "Ціна";
-            Ціна.Width = 84;
-            // 
-            // Швидкість
-            // 
-            Швидкість.HeaderText = "Швидкість";
-            Швидкість.MinimumWidth = 8;
-            Швидкість.Name = "Швидкість";
-            Швидкість.Width = 132;
             // 
             // button1
             // 
@@ -142,6 +122,27 @@
             button1.Text = "Обрахувати";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+            // 
+            // Назва
+            // 
+            Назва.FillWeight = 10F;
+            Назва.HeaderText = "Назва";
+            Назва.MinimumWidth = 8;
+            Назва.Name = "Назва";
+            // 
+            // Ціна
+            // 
+            Ціна.FillWeight = 17F;
+            Ціна.HeaderText = "Ціна";
+            Ціна.MinimumWidth = 8;
+            Ціна.Name = "Ціна";
+            // 
+            // Швидкість
+            // 
+            Швидкість.FillWeight = 8F;
+            Швидкість.HeaderText = "Швидкість";
+            Швидкість.MinimumWidth = 8;
+            Швидкість.Name = "Швидкість";
             // 
             // Form1
             // 

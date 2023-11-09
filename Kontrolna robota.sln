@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontrolna robota", "Kontrolna robota\Kontrolna robota.csproj", "{C8413E9E-9599-450C-A696-7082F4078EA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kontrolna robota", "Kontrolna robota\Kontrolna robota.csproj", "{C8413E9E-9599-450C-A696-7082F4078EA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
